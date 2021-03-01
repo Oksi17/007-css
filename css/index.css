@@ -2,34 +2,64 @@ header .logo {
     font-family: broadway, sans-serif;
     font-size: 3rem;
     text-align: center;
+    padding: 50px 0 75px 0;
+}
+
+.header-nav {
+    padding: 80px 0 100px 0;
 }
 
 :root {
-    --main-color: black; font-family: sans-serif;
-    --accent-color: red;
+    --main-color: black; --accent-color: red; font-family: sans-serif;
 }
 
-header .header-banner{
- background-image: url(../img/007-main.jpg);
-   background-position: center;
+header .header-banner {
+    background-image: url(../img/007-main.jpg);
+    background-position: center;
     background-size: cover;
     min-height: 450px;
-    opacity: 0.7; 
-    display: flex;  
+    display: flex;
     align-items: center;
     justify-content: center;
-      }
-
-     header .header-banner h1 {
-    color: var(--accent-color);
-    font-family: broadway, sans-serif;
-    font-size: 3rem;}
-    
-     
-      
-.smaller-image{
-    width: 250px;
-    height: 300px;
-flex-wrap: wrap;
-justify-content: space-around;
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15%;
 }
+
+#chosen {
+    color: red;
+    font-family: broadway, sans-serif;
+    font-size: 3rem;
+}
+
+body {
+    margin: auto;
+}
+
+.smaller-image {
+    width: 150px;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.black-border {
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15%;
+}
+
+.actors {
+    display: flex;
+    flex-wrap: align-content: space-around;
+}
+
+
+ 
+    
+
+    
+
+
