@@ -37,6 +37,12 @@ body {
     margin: auto;
 }
 
+h2 {
+    font-family: broadway, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
 .smaller-image {
     width: 150px;
     height: 200px;
@@ -51,15 +57,12 @@ body {
     border-radius: 15%;
 }
 
-.actors {
-    display: flex;
-    flex-wrap: align-content: space-around;
+p {
+    width: 150px;
+    height: 200px;
 }
 
-
- 
-    
-
-    
-
-
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
