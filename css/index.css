@@ -1,3 +1,11 @@
+:root {
+    --main-color: black; 
+    --accent-color: red; font-family: sans-serif;
+}
+
+body {
+    margin: auto;
+}
 header .logo {
     font-family: broadway, sans-serif;
     font-size: 3rem;
@@ -9,9 +17,6 @@ header .logo {
     padding: 80px 0 100px 0;
 }
 
-:root {
-    --main-color: black; --accent-color: red; font-family: sans-serif;
-}
 
 header .header-banner {
     background-image: url(../img/007-main.jpg);
@@ -33,14 +38,13 @@ header .header-banner {
     font-size: 3rem;
 }
 
-body {
-    margin: auto;
-}
+
 
 h2 {
     font-family: broadway, sans-serif;
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 200px;
 }
 
 .smaller-image {
@@ -64,5 +68,55 @@ p {
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
+
+    .cards {  
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  }
+
+
+  .cards{
+      width: 1500px;
+      height: 1300px;
+     
+  }
+
+
+#connery{
+    grid-column-start: 5;
+    grid-row-start: 1;
+}
+#niven{
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+#lazenby{
+
+grid-column-start: 2;
+grid-row-start: 6;
+}
+#moore {
+
+grid-column-start: 4;
+grid-row-start: 8;
+}
+#dalton{
+grid-column-start: 6;
+grid-row-start: 8;
+}
+#brosnan{
+grid-column-start: 8;
+grid-row-start: 6;
+}
+#craig{
+grid-column-start: 8;
+grid-row-start: 3;
+}
+#who{
+grid-column-start: 5;
+grid-row-start: 5;
+}
+
