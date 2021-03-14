@@ -4,10 +4,6 @@
     font-family: sans-serif;
 }
 
-body {
-    margin: auto;
-}
-
 header .logo {
     font-family: broadway, sans-serif;
     font-size: 3rem;
@@ -33,17 +29,36 @@ header .header-banner {
     border-radius: 15%;
 }
 
+@media (min-width: 769px) {
+    header .header-banner {
+        display: flex;
+    }
+}
+
 #chosen {
     color: red;
     font-family: broadway, sans-serif;
     font-size: 3rem;
 }
 
+body {
+    margin: auto;
+    max-width: 980px;
+}
+
 h2 {
     font-family: broadway, sans-serif;
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 200px;
+}
+
+@media (min-width: 769px) {
+    h2 {
+        display: flex;
+        font-family: broadway, sans-serif;
+        font-size: 3rem;
+        text-align: center;
+    }
 }
 
 .smaller-image {
@@ -66,19 +81,26 @@ p {
 }
 
 .cards {
+    max-width: 980px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .cards {
     display: grid;
-    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
 }
 
 .cards {
-    width: 1500px;
-    height: 1300px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+@media (min-width: 769px) {
+    .cards {
+        display: grid;
+}
 }
 
 #connery {
@@ -112,7 +134,7 @@ p {
 }
 
 #craig {
-    grid-column-start: 8;
+    grid-column-start: 7;
     grid-row-start: 3;
 }
 
