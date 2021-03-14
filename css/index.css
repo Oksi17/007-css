@@ -46,12 +46,12 @@ body {
     max-width: 980px;
 }
 
-h2 {
+/*h2 {
     font-family: broadway, sans-serif;
     font-size: 3rem;
     text-align: center;
 }
-
+*/
 @media (min-width: 769px) {
     h2 {
         display: flex;
@@ -93,8 +93,8 @@ p {
 }
 
 .cards {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 @media (min-width: 769px) {
