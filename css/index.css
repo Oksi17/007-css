@@ -80,14 +80,13 @@ p {
     height: 200px;
 }
 
-.cards {
+/*.cards {
     max-width: 980px;
     display: flex;
     justify-content: space-around;
 }
-
-.cards {
-    display: grid;
+*/
+.cards {    
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
 }
